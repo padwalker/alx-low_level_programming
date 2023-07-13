@@ -4,8 +4,8 @@
  *
  * Return: Always 1 (success)
  */
-void write(1, const char *, 59); 
-int main(void)
+void write(int, const char *, unsigned int); 
+int main(int argc, char** argv)
 {
 	write(1, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
 	return (1);
