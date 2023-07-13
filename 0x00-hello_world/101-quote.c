@@ -4,9 +4,9 @@
  *
  * Return: Always 1 (success)
  */
-void write(int filedes, const char *buf, unsigned int nbyte); 
+void write(int , const char *, unsigned int ); 
 int main(void)
 {
-	write(1, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 60);
+	write(1, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
 	return (1);
 }
