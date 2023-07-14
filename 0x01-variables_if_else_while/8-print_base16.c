@@ -12,12 +12,7 @@ int main(void)
 
 	while (n < 16)
 	{
-		if (n >= '0' && n <= '9')
-		{
-			putchar('0' + n);
-		}
-		else
-			putchar(n);
+		putchar('0' + n);
 		n++;
 	}
 	putchar('\n');
