@@ -1,5 +1,3 @@
-#include <stdlib.h>
-#include <string.h>
 #include <stdio.h>
 /* more headers goes there */
 /**
@@ -10,14 +8,13 @@
 int main(void)
 {
 	/* your code goes there */
-	int n = 0;
+	int n = 'a';
 
-	char alpha[26] = "abcdefghijklmnopqrstuvwxyz";
-	while (n < 26)
+	while (n <= 'z')
 	{
-		putchar(alpha[n]);
+		putchar(n);
 		n++;
 	}
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
