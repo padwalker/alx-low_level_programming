@@ -6,7 +6,7 @@
  * Return: Always 0 (Success)
  */
 /* betty style doc for function main goes there */
-int main(void)
+int main(int argc, char** argv)
 {
 	/* your code goes there */
 	int n = 0;
