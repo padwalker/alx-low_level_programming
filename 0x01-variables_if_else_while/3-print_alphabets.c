@@ -10,6 +10,7 @@ int main(void)
 	/* your code goes there */
 	int n = 'a';
 	int k = 'A';
+
 	while (n <= 'z')
 	{
 		putchar(n);
