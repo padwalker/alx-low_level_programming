@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include <string.h>
 #include <stdio.h>
 /* more headers goes there */
 /**
@@ -6,7 +7,7 @@
  * Return: Always 0 (Success)
  */
 /* betty style doc for function main goes there */
-int main(int argc, char** argv)
+int main(void)
 {
 	/* your code goes there */
 	int n = 0;
@@ -14,7 +15,7 @@ int main(int argc, char** argv)
 	char alpha[26] = "abcdefghijklmnopqrstuvwxyz";
 	while (n < 26)
 	{
-		putchar("%c", alpha[n]);
+		putchar(alpha[n]);
 		n++;
 	}
 	putchar("\n");
