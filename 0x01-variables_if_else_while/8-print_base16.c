@@ -12,7 +12,14 @@ int main(void)
 
 	while (n < 16)
 	{
-		putchar('0' + n);
+		if (n >= '0' && n <= '9')
+		{
+			putchar('0' + n);
+		}
+		if (n >= '10' && n < '16')
+		{
+			putchar(97 + n);
+		}
 		n++;
 	}
 	putchar('\n');
