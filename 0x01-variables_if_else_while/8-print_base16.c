@@ -10,18 +10,17 @@ int main(void)
 	/* your code goes there */
 	int n = 0;
 
-	while (n < 16)
+	while (n < 10)
 	{
 		if (n >= '0' && n <= '9')
 		{
 			putchar('0' + n);
 		}
-		if (n >= 10 && n < 16)
-		{
-			putchar('0' + n);
-		}
 		n++;
 	}
+	for (n = 'a'; n <= 'f'; n++)
+		putchar('0' + n);
+
 	putchar('\n');
 	return (0);
 }
