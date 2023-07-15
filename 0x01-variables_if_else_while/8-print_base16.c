@@ -18,7 +18,7 @@ int main(void)
 		}
 		if (n >= 10 && n < 16)
 		{
-			putchar(97);
+			putchar('0' + 97 + n);
 		}
 		n++;
 	}
