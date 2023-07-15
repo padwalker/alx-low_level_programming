@@ -10,14 +10,8 @@ int main(void)
 	/* your code goes there */
 	int n = 0;
 
-	while (n < 10)
-	{
-		if (n >= '0' && n <= '9')
-		{
-			putchar('0' + n);
-		}
-		n++;
-	}
+	for(n=0; n < 10; n++
+		putchar('0' + n);
 	for (n = 'a'; n <= 'f'; n++)
 		putchar('0' + n);
 
