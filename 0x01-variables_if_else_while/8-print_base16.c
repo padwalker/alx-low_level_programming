@@ -16,9 +16,9 @@ int main(void)
 		{
 			putchar('0' + n);
 		}
-		if (n >= '10' && n < '16')
+		if (n >= 10 && n < 16)
 		{
-			putchar('0' + 97 + n);
+			putchar('0' + n);
 		}
 		n++;
 	}
