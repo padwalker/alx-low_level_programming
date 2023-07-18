@@ -1,8 +1,6 @@
 /**
- * main - prints _putchar
- * Return: Always 0 (success)
- *
+ * print_alphabt - print the lower-case alphabet
  */
- 
+
 int _putchar(char c);
 void print_alphabet(void);
