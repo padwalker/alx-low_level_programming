@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- * add () - summation of two integers and return value
+ * add (int, int) - add function takes two arguments
+ * *
  * @a: First operand
  * @b: Second operand
  * Return: summation of integer summation
