@@ -1,10 +1,8 @@
 #include "main.h"
 /**
  * main - Entry point
- * 
  * print_alphabet() - prints alphabet small letter
  * Description: this function prints alphabet
- *
  * Return: void and display text
  */
 
