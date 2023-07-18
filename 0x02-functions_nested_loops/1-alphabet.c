@@ -4,13 +4,6 @@
  *
  * Return: Always 0.
  */
-void print_alphabet(void);
-int main(void)
-{
-	print_alphabet();
-	return (0);
-}
-
 void print_alphabet()
 {
 	char *ch = "abcdefghijklmnopqrstuvwxyz\n";
@@ -19,4 +12,10 @@ void print_alphabet()
 		_putchar(*ch);
 		ch++;
 	}
+}
+
+int main(void)
+{
+	print_alphabet();
+	return (0);
 }
