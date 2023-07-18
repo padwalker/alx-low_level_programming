@@ -2,7 +2,7 @@
 
 /**
  * _islower() - function pass integer and returns 1 or 0
- * @c - argument function takes
+ * @c - argument passed by the function
  * Return: 0 if the character is lowercase
  * 	   1 if the character is uppercase
  */
