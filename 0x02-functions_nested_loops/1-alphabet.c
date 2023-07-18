@@ -5,7 +5,7 @@
  * Return: void and display text
  */
 
-// print_alphabet definition and body
+/* print_alphabet definition and body */
 void print_alphabet(void)
 {
 	char alph;
