@@ -13,7 +13,7 @@ int _abs(int num)
 	}
 	if (num > 0)
 	{
-		return (c);
+		return (num);
 	}
 	if (num < 0)
 	{
