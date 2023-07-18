@@ -1,11 +1,13 @@
 #include "main.h"
 /**
+ * main - Entry point
+ * 
  * print_alphabet() - prints alphabet small letter
+ * Description: this function prints alphabet
  *
  * Return: void and display text
  */
 
-/* print_alphabet definition and body */
 void print_alphabet(void)
 {
 	char alph;
