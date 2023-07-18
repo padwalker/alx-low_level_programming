@@ -5,19 +5,19 @@
  *
  * Return: Integer value
  */
-int _abs(int c)
+int _abs(int num)
 {
-	if (c == 0)
+	if (num == 0)
 	{
 		return (0);
 	}
-	if (c > 0)
+	if (num > 0)
 	{
 		return (c);
 	}
-	if (c < 0)
+	if (num < 0)
 	{
-		return ((0 - c));
+		return ((0 - num));
 	}
 	return (0);
 }
