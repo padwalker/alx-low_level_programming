@@ -6,10 +6,9 @@
  * Return: 0 if the character is lowercase
  * 	   1 if the character is uppercase
  */
-
 int _islower(int c)
 {
-	if(c >= 65 && c <= 90)
+	if (c >= 65 && c <= 90)
 	{
 		return (0);
 	}
@@ -17,4 +16,5 @@ int _islower(int c)
 	{
 		return (1);
 	}
+	return (0);
 }
