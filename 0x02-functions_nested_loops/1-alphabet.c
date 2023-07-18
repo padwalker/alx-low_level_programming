@@ -5,13 +5,9 @@
  * Return: void and display text
  */
 
+// print_alphabet definition and body
 void print_alphabet(void)
 {
-/**
- *  * print_alphabet() - prints alphabet small letter
- *   *
- *    * Return: void and display text
- *     */
 	char alph;
 
 	for (alph = 'a'; alph <= 'z'; alph++)
