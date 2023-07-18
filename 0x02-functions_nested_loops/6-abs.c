@@ -7,10 +7,6 @@
  * Return: if num is +ve return num, if 0 return 0.
  * if num is -ve return -num. 0 otherwise
  */
-
-/**
- * _abs function - this is definition of the function
- */
 int _abs(int num)
 {
 	if (num == 0)
