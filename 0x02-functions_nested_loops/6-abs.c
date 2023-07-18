@@ -4,12 +4,12 @@
  * _abs() - computes absolute value of an integer num.
  * @num: the number to be checked
  *
- * Return: if num is +ve return num, if 0 return 0. 
- * if num is -ve return -num. 0 otherwise 
+ * Return: if num is +ve return num, if 0 return 0.
+ * if num is -ve return -num. 0 otherwise
  */
 
 /**
- * -abs function - this is definition of the function
+ * _abs function - this is definition of the function
  */
 int _abs(int num)
 {
