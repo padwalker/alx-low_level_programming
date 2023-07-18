@@ -1,8 +1,9 @@
 #include "main.h"
 /**
- * add () - prints summation of two integers and return value
- *
- * Return: integer summation
+ * add () - summation of two integers and return value
+ * @a: First operand
+ * @b: Second operand
+ * Return: summation of integer summation
  */
 
 int add(int a, int b)
