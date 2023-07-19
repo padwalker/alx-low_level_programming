@@ -2,13 +2,12 @@
 
 /**
  * _islower - function check uppercase, lowercase and others.
- * lower - argument passed by the function
+ *
+ * @lower: character argument passed to be checkedn
  *
  * Return: 0 if the character is lowercase
  * 1 if the character is uppercase
- *
  */
-
 int _islower(int lower)
 {
 	if (lower >= 97 && lower <= 122)
