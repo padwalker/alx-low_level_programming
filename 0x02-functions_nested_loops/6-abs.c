@@ -2,7 +2,7 @@
 
 /**
  * _abs - computes absolute value of an integer num.
- * num - the number to be checked
+ * @num: the number to be checked
  *
  * Return: if num is +ve return num,
  * if 0 return 0.
