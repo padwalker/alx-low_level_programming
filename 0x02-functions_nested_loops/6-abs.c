@@ -2,13 +2,12 @@
 
 /**
  * _abs - computes absolute value of an integer num.
- * num: the number to be checked
+ * num - the number to be checked
  *
- * Return: if num is +ve return num, 
+ * Return: if num is +ve return num,
  * if 0 return 0.
- * if num is -ve return -num. 
+ * if num is -ve return -num.
  * 0 otherwise
- *
  */
 int _abs(int num)
 {
