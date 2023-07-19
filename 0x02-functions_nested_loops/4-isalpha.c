@@ -4,13 +4,11 @@
  * _isalpha - checks whether passed value is
  * character (lower or upper case) or number
  *
- * ch - argument passed for checking alphabetic
+ * @ch: argument passed for checking alphabetic
  *
- * Return: 1 if passed argument is lowercase or uppercase letter.
+ * Return: 1 if argument is lowercase or uppercase letter.
  * 0 otherwise
- *
  */
-
 int _isalpha(int ch)
 {
 	if ((ch >= 65 && ch <= 90) || (ch >= 97 && ch <= 122))
