@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * print_last_digit() - prints last digit using modulo operation
- * @c - accepts one integer argument
+ * print_last_digit - prints last digit using modulo operation
+ * @c:  accepts one integer argument
  *
  * Return: Always 0 (success)
  */ 
