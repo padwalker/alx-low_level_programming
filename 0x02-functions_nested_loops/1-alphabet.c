@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * print_alphabet() - prints alphabet small letter
+ * print_alphabet - prints alphabet small letter
  *
+ * Return: void value
  */
-
 void print_alphabet(void)
 {
 	char alph;
