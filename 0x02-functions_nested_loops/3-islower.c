@@ -1,10 +1,12 @@
 #include "main.h"
 
 /**
- * _islower() - function pass integer and returns 1 or 0
+ * _islower - function check uppercase, lowercase and others.
  * @lower - argument passed by the function
+ *
  * Return: 0 if the character is lowercase
  * 1 if the character is uppercase
+ *
  */
 
 int _islower(int lower)
