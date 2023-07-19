@@ -1,12 +1,13 @@
 #include "main.h"
 
 /**
- * _isalpha() - checks whether passed value is
+ * _isalpha - checks whether passed value is
  * character (lower or upper case) or number
  *
- * @c - argument passed for checking
+ * c - argument passed for checking
  * Return: 1 if passed argument is lowercase or uppercase letter
  * 0 otherwise
+ *
  */
 int _isalpha(int c)
 {
