@@ -6,6 +6,7 @@
  * Return: 0 if the character is lowercase
  * 1 if the character is uppercase
  */
+
 int _islower(int lower)
 {
 	if (lower >= 97 && lower <= 122)
