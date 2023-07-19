@@ -21,7 +21,7 @@ void times_table(void)
 				}
 				if (i * j >= 10)
 				{
-				        printf("%d, ", j * i);
+					printf("%d, ", j * i);
 				}
 			}
 			if (j == 9)
@@ -32,11 +32,10 @@ void times_table(void)
 				}
 				if (j * i >= 10)
 				{
-				        printf("%d ", j * i);
+					printf("%d ", j * i);
 				}
 			}
 		}
 		printf("\n");
 	}
-	printf("\n");
 }
