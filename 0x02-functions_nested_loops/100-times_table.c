@@ -29,12 +29,11 @@ void print_times_table(int n)
 					printf("%d ", j * i);
 				}
 			}
-			/*printf("\n");*/
+			printf("\n");
 		}
 	}
 	if (n == 0)
 	{
 		printf("%d", n);
 	}
-	printf("\n");
 }
