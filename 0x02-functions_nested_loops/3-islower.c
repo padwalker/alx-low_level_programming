@@ -2,7 +2,7 @@
 
 /**
  * _islower - function check uppercase, lowercase and others.
- * @lower - argument passed by the function
+ * lower - argument passed by the function
  *
  * Return: 0 if the character is lowercase
  * 1 if the character is uppercase
