@@ -2,8 +2,8 @@
 #define MAIN_H
 
 #include <stdio.h>
-#include <_putchar.h>
 
 int _isupper(int ch);
+int _isdigit(int c);
 
 #endif /* MAIN_H */
