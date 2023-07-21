@@ -2,7 +2,6 @@
 
 /**
  * _isdigit - function check uppercase, lowercase and others.
- *
  * @ch: character argument passed to be checkedn
  *
  * Return: 0 if the character is lower or uppercase
@@ -22,5 +21,4 @@ int _isdigit(int ch)
 	{
 		return (1);
 	}
-	return (0);
 }
