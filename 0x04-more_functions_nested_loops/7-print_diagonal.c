@@ -5,7 +5,7 @@
  * 
  * @n: size or number of print diagonal
  *
- * Return: void
+ * Return: void (success)
  */
 void print_diagonal(int n)
 {
