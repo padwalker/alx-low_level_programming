@@ -14,7 +14,7 @@ void print_line(int n)
 	}
 	else
 	{
-		for(i == n; i >= 0; i--)
+		for(i = n; i >= 0; i--)
 		{
 			putchar('-');
 		}
